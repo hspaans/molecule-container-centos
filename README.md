@@ -37,8 +37,8 @@ The container is based on [LTS](https://en.wikipedia.org/wiki/Long-term_support)
 
 | Platform | Version | Image                                                                        |
 |:--------:|:-------:|:----------------------------------------------------------------------------:|
-| CentOS   | 7       | [hspaans/molecule-container-centos:9][molecule-container-centos:9]           |
-| CentOS   | 8       | [hspaans/molecule-container-centos:10][molecule-container-centos:10]         |
+| CentOS   | 7       | [hspaans/molecule-container-centos:7][molecule-container-centos:7]           |
+| CentOS   | 8       | [hspaans/molecule-container-centos:8][molecule-container-centos:8]         |
 | CentOS   | 8       | [hspaans/molecule-container-centos:latest][molecule-container-centos:latest] |
 
 [ansible]: https://github.com/ansible/ansible
