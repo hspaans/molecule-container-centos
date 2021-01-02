@@ -4,7 +4,7 @@ LABEL org.opencontainers.image.description="CentOS container for Molecule"
 LABEL org.opencontainers.image.source=https://github.com/hspaans/molecule-container-centos
 
 # Configure apt and install packages
-# hadolint ignore=DL3033
+# hadolint ignore=DL3031,DL3033
 RUN yum makecache fast \
     && yum -y install python3 deltarpm epel-releas \
     && yum -y update \
