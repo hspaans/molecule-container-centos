@@ -1,6 +1,6 @@
 # CentOS Container for Molecule
 
-An [CentOS][centos] based container image for testing [Ansible][ansible] Roles with [Molecule][molecule]. The [repository][docker-centos10-ansible] from [Jeff Geerling][geerlingguy] was taken as starting point to create the repository.
+An [CentOS][centos] based container image for testing [Ansible][ansible] Roles with [Molecule][molecule]. The [repository][docker-centos8-ansible] from [Jeff Geerling][geerlingguy] was taken as starting point to create the repository.
 
 ## Example Molecule scenario
 
@@ -43,7 +43,7 @@ The container is based on [LTS](https://en.wikipedia.org/wiki/Long-term_support)
 
 [ansible]: https://github.com/ansible/ansible
 [centos]: https://centos.org
-[docker-centos10-ansible]: https://github.com/geerlingguy/docker-centos8-ansible
+[docker-centos8-ansible]: https://github.com/geerlingguy/docker-centos8-ansible
 [geerlingguy]: https://github.com/geerlingguy
 [molecule]: https://github.com/ansible-community/molecule
 [molecule-container-centos:latest]: ghcr.io/hspaans/molecule-container-centos:latest
