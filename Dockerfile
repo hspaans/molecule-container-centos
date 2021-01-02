@@ -4,9 +4,8 @@ LABEL org.opencontainers.image.description="CentOS container for Molecule"
 LABEL org.opencontainers.image.source=https://github.com/hspaans/molecule-container-centos
 
 # Configure apt and install packages
-# hadolint ignore=DL3008
-RUN yum -y update \
-    && yum -y install systemd systemd-sysv python3 \
+# hadolint ignore=DL3033
+RUN yum -y install systemd systemd-sysv python3 \
     # Clean up
     && yum clean all
 
