@@ -1,4 +1,4 @@
-FROM centos:8.3.2011
+FROM centos:7.9.2009
 
 LABEL org.opencontainers.image.description="CentOS container for Molecule"
 LABEL org.opencontainers.image.source=https://github.com/hspaans/molecule-container-centos
