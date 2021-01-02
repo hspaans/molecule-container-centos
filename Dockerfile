@@ -5,8 +5,9 @@ LABEL org.opencontainers.image.source=https://github.com/hspaans/molecule-contai
 
 # Configure apt and install packages
 # hadolint ignore=DL3033
-RUN yum makecache \
-    && yum -y install systemd systemd-sysv python3 \
+RUN yum makecache fast \
+    && yum -y install python3 deltarpm epel-releas \
+    && yum -y update
     # Clean up
     && yum clean all
 
