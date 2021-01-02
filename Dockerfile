@@ -5,7 +5,8 @@ LABEL org.opencontainers.image.source=https://github.com/hspaans/molecule-contai
 
 # Configure apt and install packages
 # hadolint ignore=DL3033
-RUN yum -y install systemd systemd-sysv python3 \
+RUN yum makecache \
+    && yum -y install systemd systemd-sysv python3 \
     # Clean up
     && yum clean all
 
