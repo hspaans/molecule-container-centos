@@ -35,11 +35,11 @@ verifier:
 
 The container is based on [LTS](https://en.wikipedia.org/wiki/Long-term_support) distribution versions with official support and fall within N and N-1. The *latest*-tag is an experimental tag to test future releases.
 
-| Platform | Version | Image                                                                        |
-|:--------:|:-------:|:----------------------------------------------------------------------------:|
-| CentOS   | 7       | [hspaans/molecule-container-centos:7][molecule-container-centos:7]           |
-| CentOS   | 8       | [hspaans/molecule-container-centos:8][molecule-container-centos:8]         |
-| CentOS   | 8       | [hspaans/molecule-container-centos:latest][molecule-container-centos:latest] |
+| Platform | Version |                                    Image                                     |
+| :------: | :-----: | :--------------------------------------------------------------------------: |
+|  CentOS  |    7    |      [hspaans/molecule-container-centos:7][molecule-container-centos:7]      |
+|  CentOS  |    8    |      [hspaans/molecule-container-centos:8][molecule-container-centos:8]      |
+|  CentOS  |    8    | [hspaans/molecule-container-centos:latest][molecule-container-centos:latest] |
 
 [ansible]: https://github.com/ansible/ansible
 [centos]: https://centos.org
